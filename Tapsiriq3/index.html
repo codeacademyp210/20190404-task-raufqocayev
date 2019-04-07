@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <form class="form-group" name="carForm" onsubmit="return formValidation()">
+                    <h3 class="text-center">Manufacturer</h3>
+                    <input type="text" class="form-control" name="manuIn"
+                        style="width:60%;margin:auto;border:1px solid rgb(56, 53, 53);" placeholder="Enter Manufacturer">
+                    <h3 class="text-center mt-4">Car Model</h3>
+                    <input type="text" class="form-control" name="modelIn"
+                        style="width:60%;margin:auto;border:1px solid rgb(56, 53, 53);" placeholder="Enter CarModel">
+                    <h3 class="text-center mt-4">Release Date</h3>
+                    <input type="text" class="form-control" name="yearIn"
+                        style="width:60%;margin:auto;border:1px solid rgb(56, 53, 53);" placeholder="Enter Year">
+                    <div style="padding-left:20%;width: 80%">
+                        <input type="submit" class="btn btn-outline-info btn-block mt-5">
+                    </div>
+                </form>
+            </div>
+            <div class="col-6 mt-5" style="padding-left: 19%">
+                <ul class="list-group carlist">
+                    <li class="list-group-item">0. BRAND - MODEL - YEAR</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>

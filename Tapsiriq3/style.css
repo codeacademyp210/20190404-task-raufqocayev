@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color:wheat;
+}
+h2{
+    color: black
+}
+h3{
+    color: green;
+}
+input{
+    font-weight: bold !important;
+    font-size: 15px !important;
+    text-align: center;
+}
